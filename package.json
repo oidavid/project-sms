@@ -1,0 +1,49 @@
+{
+  "name": "account-verification-node",
+  "version": "1.0.0",
+  "description": "Twilio and Authy powered user account verification using Node.js the Express web framework",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TwilioDevEd/account-verification-node.git"
+  },
+  "keywords": [
+    "twilio",
+    "express",
+    "mongodb",
+    "twiml",
+    "webhooks",
+    "voip"
+  ],
+  "author": "Kevin Whinnery",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TwilioDevEd/account-verification-node/issues"
+  },
+  "homepage": "https://github.com/TwilioDevEd/account-verification-node",
+  "dependencies": {
+    "authy": "^1.2.0",
+    "bcrypt": "^0.8.1",
+    "body-parser": "^1.18.3",
+    "connect-flash": "^0.1.1",
+    "dotenv-safe": "^3.0.0",
+    "eslint": "^3.19.0",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "jade": "^1.9.2",
+    "mongodb": "^3.1.0",
+    "mongoose": "^4.13.14",
+    "morgan": "^1.5.1",
+    "twilio": ">=3.0.0-rc.16 < 3.1.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.1.2"
+  },
+  "engines": {
+    "node": ">=4.1.0"
+  }
+}
